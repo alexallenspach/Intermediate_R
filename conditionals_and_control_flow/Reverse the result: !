@@ -1,0 +1,19 @@
+On top of the & and | operators, you also learned about the ! operator, which negates a logical value. To refresh your memory, here are some R expressions that use !. They all evaluate to FALSE:
+
+!TRUE
+!(5 > 3)
+!!FALSE
+
+What would the following set of R expressions return?
+
+x <- 5
+y <- 7
+!(!(x < 4) & !!!(y > 12))
+
+Possible Answers
+
+    TRUE
+    FALSE
+    Running this piece of code would throw an error.
+    
+Correct Answer: FALSE
