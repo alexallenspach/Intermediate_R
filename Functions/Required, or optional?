@@ -1,0 +1,19 @@
+#By now, you will probably have a good understanding of the difference between required and optional arguments. Let's refresh this difference by having one last look at the mean() function:
+
+#mean(x, trim = 0, na.rm = FALSE, ...)
+
+#x is required; if you do not specify it, R will throw an error. trim and na.rm are optional arguments: they have a default value which is used if the arguments are not explicitly specified.
+
+#Which of the following statements about the read.table() function are true?
+
+#    header, sep and quote are all optional arguments.
+#    row.names and fileEncoding don't have default values.
+#    read.table("myfile.txt", "-", TRUE) will throw an error.
+#    read.table("myfile.txt", sep = "-", header = TRUE) will throw an error.
+
+Possible Answers
+
+    (1) and (3) <------------
+    (2) and (4)
+    (1), (2), and (3)
+    (1), (2), and (4)
