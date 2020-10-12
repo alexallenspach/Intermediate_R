@@ -17,4 +17,9 @@ sub(".*\\s([0-9]+)\\snomination.*$", "\\1", awards)
 
 # What does this code chunk return? awards is already defined in the workspace so you can start playing in the console straight away.
 
-A vector of character strings containing "Won 1 Oscar.", "24", "2", "3", "2", "1".
+# Answer
+# >>>>>>>>>   A vector of character strings containing "Won 1 Oscar.", "24", "2", "3", "2", "1".
+
+# Great! Can you explain why all of this happened? The ([0-9]+) selects the entire number that comes before the word “nomination” in the string, and the entire 
+# match gets replaced by this number because of the \\1 that reference to the content inside the parentheses. The next video will get you up to speed with times and 
+# dates in R! 
